@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+    <h1>Advanced HTML5 Elements and Forms</h1>
+
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg" alt="Sample Image" width="300" height="auto">
+
+    <h2>Contacts Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Chinedu Okafor</td>
+            <td>10 Adebayo Street, Lagos</td>
+            <td>(123) 456-7890</td>
+            <td>Chinedu@example.com</td>
+        </tr>
+        <tr>
+            <td>Aisha Bello</td>
+            <td>22 Olaniyi Avenue, Abuja</td>
+            <td>(987) 654-3210</td>
+            <td>Aisha@example.com</td>
+        </tr>
+        <tr>
+            <td>Tunde Adeyemi</td>
+            <td>15 Ojo Street, Port Harcourt</td>
+            <td>(555) 123-4567</td>
+            <td>Tunde@example.com</td>
+        </tr>
+        <tr>
+            <td>Ngozi Nwosu</td>
+            <td>5 Nwankwo Lane, Enugu</td>
+            <td>(444) 987-6543</td>
+            <td>Ngozi@example.com</td>
+        </tr>
+        <tr>
+            <td>Emeka Ibe</td>
+            <td>30 Chukwu Street, Ibadan</td>
+            <td>(222) 333-4444</td>
+            <td>Ibe@example.com</td>
+        </tr>
+    </table>
+
+    <h2>Registration Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required placeholder="Enter your password"><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br>
+
+        <label for="dropdown">Select an option:</label>
+        <select id="dropdown" name="dropdown">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+        </select><br>
+
+        <label>Choose one:</label>
+        <input type="radio" id="radio1" name="radio" value="radio1">
+        <label for="radio1">Radio 1</label>
+        <input type="radio" id="radio2" name="radio" value="radio2">
+        <label for="radio2">Radio 2</label><br>
+
+        <label>Choose your interests:</label>
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="checkbox1">
+        <label for="checkbox1">Checkbox 1</label>
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="checkbox2">
+        <label for="checkbox2">Checkbox 2</label><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
